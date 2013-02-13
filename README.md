@@ -129,6 +129,18 @@ which all of the items in the list will be run.
 This invocation of `forAll` will loop through each individual search result
 and print out the main anchor text for each.
 
+## Installation
+
+Clone the repository and perform publishing to local repository if the default scala version (currently 2.8.1)
+is sutable
+
+    publish-local
+
+or perform sbt cross-build, if you need to perform compilation and publishing for different scala version (currently
+both 2.8.1 and 2.9.1) are supported.
+
+    +publish-local
+
 ## Releases
 
 * 0.5.0 (2012.06.24)
